@@ -8,5 +8,5 @@ let i=1
 while (i<=20) {
     sum += i;
     i+=1;
+    return (sum)
 }
-console.log (sum)
