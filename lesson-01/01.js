@@ -9,5 +9,3 @@ while (i<=20) {
     sum += i;
     i+=1;
 }
-console.log(sum)
-alert(sum)
