@@ -4,19 +4,19 @@
  * Результат сохраните в переменной grade.
  */
 
-const score = 70 // тестовое значение, можно изменять
-let grade
+const score = 70; // тестовое значение, можно изменять
+let grade;
 // your code
 
 if (0 <= score && score <= 49) {
     grade = "F";
 } else if (score >= 50 && score <= 69) {
-    grade = "D"
+    grade = "D";
 } else if (score >= 70 && score <= 79) {
-    grade = "C"
+    grade = "C";
 } else if (score >= 80 && score <= 89) {
-    grade = "B"
+    grade = "B";
 } else {
-    grade = "A"
+    grade = "A";
 }
 console.log(grade);
