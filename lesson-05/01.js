@@ -23,10 +23,10 @@ const game = {
       console.log(game.resources);
       
     } else {
-      console.log('incorrect');
+      console.log('Invalid resource');
       
     }
   }
 }
 
-console.log(game.addResource ('lumber', 500));
+console.log(game.addResource ('silver', 500));
