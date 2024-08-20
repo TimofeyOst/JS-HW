@@ -40,5 +40,5 @@ function updateGallery(gallery, name, description) {
     return gallery
 }
 
-// updateGallery(gallery, 'Mona Lisa', 'Leonardo da Vinci, 1503-1506')
-// console.log(updateGallery(gallery, 'The Persistence of Memory', 'Salvador Dali'));
+updateGallery(gallery, 'Mona Lisa', 'Leonardo da Vinci, 1503-1506')
+console.log(updateGallery(gallery, 'The Persistence of Memory', 'Salvador Dali'));
