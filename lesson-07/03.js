@@ -10,5 +10,16 @@
 */
 
 function truncate(str, maxLength) {
-  // your code
+  let a = ''
+  if (str.length > maxLength) {
+    for (let i = 0; i < maxLength; i++) {
+      a += str[i]
+    }
+    a += '...'
+  } else {
+    return str
+  }
+  return a
 }
+
+console.log(truncate("Короткая строка", 20));
